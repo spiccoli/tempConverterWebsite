@@ -22,25 +22,23 @@ body {
 .labels {
     margin-top: 20px;
     margin-bottom: 20px;
-
     color: rgb(255, 255, 255);
 }
 
 #submitBtn{
-    position: relative;
     background-color: rgb(142, 80, 8, 0.808);
     color: rgb(255, 255, 255);
     border-radius: 100px;
     border: 1px solid rgba(230, 149, 57, 0.598);
-    display: inline-block;
-    outline: 0;
     padding: 9px 20px 9px 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 #submitBtn:hover{
     background-color: rgba(230, 149, 57, 0.598);
     cursor: pointer;
 }
 #resultTemp{
-
+    font-size: 20px;
+    text-decoration: underline;
 }
