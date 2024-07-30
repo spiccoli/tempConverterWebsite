@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> 🌡️ </title>
+</head>
+<body>
+<div class="converterContainer">
+    <h1>temperature converter</h1>
+    <input id="textBox" type="number" value="0">
+    <br>
+    <div class="labels">
+        <input id="toFahreneit "type="radio" name="tempRadios"> 
+        <label for="toFahreneit">Celsius(°C) ➡️ Fahrenheit(°F)</label>
+        <br>
+        <input id="toCelsius "type="radio" name="tempRadios"> 
+        <label for="toCelsius">Fahrenheit(°F) ➡️ Celsius(°C)</label>
+    </div>
+    <button id="submitBtn" type="submit" onclick="convert()">Convert</button>
+    <p id="resultTemp"></p>
+</div>
+
+
+<script href="index.js"></script>
+</body>
+</html>
