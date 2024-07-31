@@ -1,9 +1,9 @@
 body {
     background-color: rgba(142, 80, 8, 0.808);
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    color: #fff;
 }
-.converterContainer{
+.converterContainer {
     margin: 100px auto;
     background-color: rgba(230, 149, 57, 0.598);
     text-align: center;
@@ -13,32 +13,24 @@ body {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.284);
     font-weight: bold;
 }
-
 #textBox {
     width: 30%;
-    text-align: left;
     font-size: 20px;
 }
 .labels {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    color: #fff;
 }
-
-#submitBtn{
-    background-color: rgb(142, 80, 8, 0.808);
-    color: rgb(255, 255, 255);
+#submitBtn {
+    background-color: rgba(142, 80, 8, 0.808);
+    color: #fff;
     border-radius: 100px;
     border: 1px solid rgba(230, 149, 57, 0.598);
-    padding: 9px 20px 9px 20px;
+    padding: 9px 20px;
     text-align: center;
     margin-bottom: 20px;
-}
-#submitBtn:hover{
-    background-color: rgba(230, 149, 57, 0.598);
     cursor: pointer;
 }
-#resultTemp{
-    font-size: 20px;
-    text-decoration: underline;
+#submitBtn:hover {
+    background-color: rgba(230, 149, 57, 0.598);
 }
